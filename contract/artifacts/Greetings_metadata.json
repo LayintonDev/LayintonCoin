@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "greet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greetingsText",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/saheed.sol": "Greetings"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/saheed.sol": {
+			"keccak256": "0x6922d76807f97dcf3e5bcddbcf41c8646a7e2b449d1c6b91ff68e70b5ec7e2f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f20c5d6b793413e62ff5da119d7bb182b27954abd814c0ee72b7ebc2ba20fac",
+				"dweb:/ipfs/QmW41otsun1hhufuM2tTkJJ8P8VARu2Xk1TdGNCk4WaPRg"
+			]
+		}
+	},
+	"version": 1
+}
